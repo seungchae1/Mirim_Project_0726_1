@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 item.setChecked(true);
                 return true;
             case R.id.btn:
-                imgV.setRotation(Integer.parseInt(edit.getText().toString()));
+                imgV.setRotation(Float.parseFloat(edit.getText().toString()));
                 return true;
 
         }
